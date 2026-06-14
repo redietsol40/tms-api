@@ -1,0 +1,25 @@
+### GET All Enrollments
+GET http://localhost:5272/api/enrollments/e66f360c
+
+###
+DELETE http://localhost:5272/api/enrollments/e66f360c
+
+
+### POST New Enrollment
+POST http://localhost:5272/api/enrollments
+Content-Type: application/json
+
+{
+  "studentId": "S-100",
+  "courseCode": "CS-500"
+}
+###
+
+##
+//GET http://localhost:5272/api/error
+##
+
+GET http://localhost:5272/api/assessments/results
+
+
+
