@@ -19,7 +19,13 @@ Content-Type: application/json
 //GET http://localhost:5272/api/error
 ##
 
-GET http://localhost:5272/api/assessments/results
+//GET http://localhost:5272/api/assessments/results
+
+POST http://localhost:5272/scalar/v1
+
+POST /api/enrollments
+
+
 
 
 
